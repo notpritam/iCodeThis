@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#e4e5f0;
+}
+
+.container{
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+  h3{
+    font-size: 15px;
+  }
+  p{
+    font-size: 13px;
+  }
+  
+  .card{
+    z-index: 3;
+    border-radius: 20px;
+    padding: 30px 20px 20px 20px ;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    hr{
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .icons{
+      display: flex;
+      .option{
+        align-items: center;
+       width: 100%;
+        justify-content: space-between;
+        div{
+          margin-bottom: 10px;
+          p{ 
+            .pd{
+              font-size: 20px;
+              margin-right: 10px;
+            }
+            display:flex;
+            align-items: center;
+          }
+        }
+        
+      }
+    }
+
+    .connect{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      p{
+        font-size: 15px;
+        color: #5e95f3;       
+         span{
+          font-size: 70;
+        }
+      }
+     
+    }
+    .row{
+      display: flex;
+      align-items: center;
+      gap:10px;
+
+      .dp{
+        height:48px;
+        width: 48px;
+        border-radius: 50%;
+        border: 2px solid orangered;
+      }
+
+      .title{
+        flex: 1;
+        display:flex;
+        flex-direction: column;
+        margin-right: 20px;
+      }
+      .correct{
+        height: 45px;
+        display:flex;
+        justify-content: center;
+        width: 45px;
+        align-items: center;
+        padding: 5px;
+        border-radius: 50%;
+        border: 1px solid black;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        .tick{
+          height: 25px;
+          width: 25px;
+
+        }
+      }
+
+      
+    }
+  }
+
+  .small-card{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:white;
+    border-radius:60px;
+    width: 70%;
+    h4{
+      font-size: 15px;
+    }
+    p{
+      font-size: 13px;
+    }
+    .row{
+      display: flex;
+      align-items: center;
+      gap:10px;
+
+      .dp{
+        height:48px;
+        width: 48px;
+        border-radius: 50%;
+      }
+
+      .title{
+        flex: 1;
+        display:flex;
+        flex-direction: column;
+        
+      }
+
+      
+    }
+  }
+}
